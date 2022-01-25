@@ -1,0 +1,12 @@
+.header__lang-link {
+    text-decoration: none;
+    color: white;
+}
+
+.header__lang-link:first-child {
+    margin-right: 18px;
+}
+
+.header__lang-link:active {
+    text-decoration: underline;
+}
