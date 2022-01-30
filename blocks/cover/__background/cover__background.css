@@ -3,3 +3,9 @@
     position: relative;
     margin-bottom: 92px;
 }
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .cover__background {
+        margin-bottom: 88px;
+    }
+}

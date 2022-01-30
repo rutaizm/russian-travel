@@ -11,3 +11,20 @@
         gap: 80px;
     }   
 }
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .places {
+        display: grid;
+        grid-template-rows: repeat(5, 550px);
+        gap: 73px;
+    }   
+}
+
+@media screen and (max-width:767px) {
+    .places {
+        display: grid;
+        grid-template-rows: repeat(5, max-content);
+        gap: 50px;
+    }
+}

@@ -3,9 +3,16 @@
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 20px;
     letter-spacing: 2px;
     color: #AAAAAA;
     margin: 0;
     padding-bottom: 12px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .place__url-heading {
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        line-height: 12px; 
+    }
 }

@@ -13,3 +13,12 @@
         max-width: 456px;
     }
 }
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .place__paragraph {
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      line-height: 26px;
+      max-width: 352px;
+      margin: 0 0 26px 0;
+    }
+}
