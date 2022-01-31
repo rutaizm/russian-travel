@@ -8,6 +8,10 @@
     margin: 0 0 26px 0;
 }
 
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width:1024px) and (max-width:1279px) {
     .place__paragraph {
         max-width: 456px;
@@ -18,7 +22,15 @@
     .place__paragraph {
       font-family: 'Inter', Arial, Helvetica, sans-serif;
       line-height: 26px;
+      font-size: 16px;
       max-width: 352px;
       margin: 0 0 26px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .place__paragraph {
+        min-width: 288px;
+        align-self: center;
     }
 }
