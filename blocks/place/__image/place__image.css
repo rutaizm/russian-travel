@@ -24,8 +24,8 @@
 
 @media screen and (max-width:767px) {
     .place__image {
-        min-width: 320px;
-        min-height: 320px;
+        max-width: 320px;
+        max-height: 320px;
         margin-bottom: 32px;
     }
 }

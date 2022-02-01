@@ -8,7 +8,8 @@
     color: white;
     z-index: 1;
     max-width: 360px;
-    margin: 32 auto 0 auto;
+    margin: 0;
+    
 }
 
 @media screen and (max-width:767px) {
