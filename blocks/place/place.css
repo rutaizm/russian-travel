@@ -1,4 +1,4 @@
-.place {
+/*.place {
     color: white;
     display: flex;
     flex-direction: row;
@@ -27,4 +27,12 @@
         flex-direction: column;
         max-width: 288px;
     }
+}
+*/
+
+.place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: min-content 460px;
+    gap: 48px 40px;
 }
