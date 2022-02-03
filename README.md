@@ -17,3 +17,5 @@
 * Figma
 * Git
 
+### Ссылка на проект
+https://rutaizm.github.io/russian-travel/
