@@ -7,14 +7,15 @@
     list-style: none;
     padding-left: 0;
     margin: 0;
-    width: 78px;
     justify-content: space-between;
  }
 
+ .header__lang-links:last-child {
+     margin-right: 0;
+ }
 
  @media screen and (max-width:767px) {
      .header__lang-links {
-        width: 62px;
         font-size: 18px;
         line-height: 20px;
      }

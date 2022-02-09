@@ -1,17 +1,6 @@
 .header__lang-link {
     text-decoration: none;
     color: white;
-    width: 30px;
-}
-
-/* либо сбрось маргин у последнего
-.header__lang-link:last-of-type {
-    margin-right: 0;
-}
-*/
-
-.header__lang-link:active {
-    text-decoration: underline;
 }
 
 .header__lang-link:hover {

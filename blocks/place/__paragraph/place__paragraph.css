@@ -20,7 +20,6 @@
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     .place__paragraph {
-      font-family: 'Inter', Arial, Helvetica, sans-serif;
       line-height: 26px;
       font-size: 16px;
       max-width: 352px;
@@ -32,7 +31,6 @@
     .place__paragraph {
         max-width: 288px;
         padding: 0 16px;
-        font-family: 'Inter', Arial, Helvetica, sans-serif;
         line-height: 26px;
         font-size: 16px;
 
